@@ -13,6 +13,7 @@ let closestHight = 100;
 
 function findTheNumber() {
     if (realResult == myGuess.value){
+        result.style.display = "none";
         attempt.style.display = "none"
         congrats.style.display = "block"
         congrats.innerHTML = "Congratulations you won!!!";
